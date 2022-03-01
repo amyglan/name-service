@@ -1,6 +1,6 @@
 .App {
   height: 100vh;
-  background-color: #0d1116;
+  background-color: #a17c45;
   text-align: center;
   color: white;
 }
@@ -11,7 +11,7 @@ p {
 
 .container {
   height: 100%;
-  background-color: #181818;
+  background-color: #17191a;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -53,7 +53,7 @@ header{
 
 .right{
   display: flex;
-  background: black;
+  background: rgb(209, 127, 191);
   border-radius: 16px;
   padding: 12px 20px;
   height: 99%;

@@ -7,7 +7,7 @@ async function main() {
 
     let txn = await domainContract.register("3xp10its", {value: hre.ethers.utils.parseEther('0.1')});
     await txn.wait();
-    console.log("Minted domain 3xp0its.trapdoor");
+    console.log("Minted domain 3xp10its.trapdoor");
 
     txn = await domainContract.storeRecord("3xp10its", "https://music.youtube.com/watch?v=HWi1lBRUh0M&list=OLAK5uy_kalb6tJq2w0RnC4OcumcgfK52p-ev5YgA");
     await txn.wait();
